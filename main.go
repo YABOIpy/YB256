@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	fmt.Println("Hashed String: ", io.HashString("Hello eWorld"))
+	fmt.Println("Hashed String: ", io.HashString("Hello World"))
 	fmt.Println("Hashed File: ", io.HashFile("test.txt"))
 }
