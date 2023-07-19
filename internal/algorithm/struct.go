@@ -1,8 +1,6 @@
 package algorithm
 
-const (
-	blockSize = 64
-)
+const blockSize = 64
 
 type YB128Hash struct{}
 
